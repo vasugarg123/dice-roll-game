@@ -1,0 +1,75 @@
+body{
+  background-color: pink;
+}
+.active{
+  background-color: #2fd21d;
+}
+
+.wrapper{
+  background-color: white;
+  height:30rem;
+  width:75rem;
+  margin:5rem;
+}
+.player-1-panel,.player-2-panel{
+  display: inline-block;
+  /* background-color: grey; */
+  height: 30em;
+  width: 32.99em;
+}
+.player-1-name,.player-2-name{
+  font-size: 3rem;
+  margin: 5rem 0rem 2rem 13rem;
+}
+.player-1-score,.player-2-score{
+font-size: 4rem;
+margin: 0rem 13rem 8rem 17rem;
+}
+.player-1-current,.player-2-current{
+  background-color: red;
+  height: 5rem;
+  width:6.5rem;
+  margin:0rem 15rem;
+}
+.player-current{
+  font-size: 1.5rem;
+  margin:1rem;
+}
+.player-1-cScore,.player-2-cScore{
+  font-size: 2rem;
+  margin:0rem 2.8rem;
+}
+button,.rollScore{
+  font-size:1.5rem;
+  background-color: white;
+  display:block;
+  margin: 3rem 0rem;
+}
+.player-1-panel,.player-2-panel,.btn-group{
+  display: inline-block;
+}
+/* #btn-newGame{
+  top:10px;
+} */
+.rollScore{
+  font-size: 2rem;
+  margin-left:3rem;
+  /* margin-top: 5rem; */
+}
+#btn-hold{
+  margin-left: 1.5rem;
+  /* padding-bottom: 1rem; */
+}
+.winner{
+  color:red;
+}
+.finalVal{
+  position: absolute;
+  font-family: 'lota';
+  font-size: 20px;
+  color:#555;
+  width:10%;
+  text-transform: uppercase;
+  text-align: center;
+  /* font-weight: bold; */
+}
